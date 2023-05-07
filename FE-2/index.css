@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background: #333333;
+  color: #a9a8a4;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 80px;
+}
+.logo p {
+  padding-left: 50px;
+  font-size: 14px;
+}
+.logo h1 {
+  padding-left: 50px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+nav {
+  background-color: #232323;
+  width: 26%;
+  height: 45px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  justify-content: space-between;
+  padding: 12px 10px 12px 10px;
+  margin: 1px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a9a8a4;
+}
+
+section {
+  width: 975px;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.ust {
+  padding-top: 40%;
+  height: 300px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.ust img {
+  background-color: #333333;
+  width: 630px;
+  height: 300px;
+}
+.ust main {
+  background-color: lightgrey;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 3px;
+  padding-top: 4px;
+}
+.ust main h2 {
+  font-weight: 400;
+  color: grey;
+  font-size: 50px;
+  font-style: oblique;
+}
+.ust main p {
+  color: grey;
+}
+.ust main a {
+  text-decoration: none;
+  margin-left: 210px;
+  margin-top: 60px;
+  color: orange;
+}
+.orta {
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 3px;
+  padding-top: 4px;
+}
+.orta h6 {
+  margin-left: 15px;
+  margin-top: 40px;
+  color: grey;
+  font-size: 13px;
+}
+.orta main a {
+  text-decoration: none;
+  margin-left: 210px;
+  margin-top: 60px;
+  color: orange;
+}
+.ortasekil1 {
+  background-color: black;
+}
